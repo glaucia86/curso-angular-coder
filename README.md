@@ -7,6 +7,7 @@ Repositório responsável pelos códigos de exemplo desenvolvidos no curso de An
 - Visual Studio Code;
 - Angular 5/6;
 - Conceitos de Autenticação;
-- Angular Cli;
+- Angular cli;
+- Typescript
 
 **documentação em desenvolvimento**
