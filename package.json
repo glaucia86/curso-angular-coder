@@ -1,0 +1,26 @@
+{
+  "name": "curso-angular-coder",
+  "version": "1.0.0",
+  "description": "Repositório responsável pelos códigos de exemplo desenvolvidos no curso de Angular da Udemy [**Construindo Aplicações Web Com o Novo Angular (4, 5 e 6)**](https://www.udemy.com/angular-pt)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glaucia86/curso-angular-coder.git"
+  },
+  "keywords": [],
+  "author": "Glaucia Lemos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glaucia86/curso-angular-coder/issues"
+  },
+  "homepage": "https://github.com/glaucia86/curso-angular-coder#readme",
+  "dependencies": {
+    "lodash": "^4.14.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.110"
+  }
+}

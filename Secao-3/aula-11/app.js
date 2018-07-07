@@ -11,6 +11,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var base_ships_1 = require("../aula-13/base-ships");
 var starfighters_1 = require("../aula-13/starfighters");
+var _ = require("lodash");
+console.log(_.pad("Exemplos em Typescript", 40, "="));
 //==> Uso de classes em TypeScript:
 var ship = new base_ships_1.Spacecraft('hyperdrive');
 ship.jumpIntoHyperspace();
