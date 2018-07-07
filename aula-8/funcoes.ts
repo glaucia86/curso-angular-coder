@@ -30,3 +30,11 @@ console.log(`Is ${distance} parsecs enough to beat Millenium Falcon? ${isEnoughT
 // Exemplos de Funções com Arrow Functions:
 let call = (name: string) => console.log(`Do you copy, ${name}`)
 call('R2D2')
+
+// Exemplos de uso de parâmetros em Ts
+function incrementar(velocidade: number, incremento: number = 1) : number {
+    return velocidade + incremento
+}
+
+console.log(`Incremente(5,1) = ${incrementar(5,1)}`)
+console.log(`Incremente(5) = ${incrementar(5)}`)

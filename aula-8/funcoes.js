@@ -24,4 +24,11 @@ console.log("Is " + distance + " parsecs enough to beat Millenium Falcon? " + (i
 // Exemplos de Funções com Arrow Functions:
 var call = function (name) { return console.log("Do you copy, " + name); };
 call('R2D2');
+// Exemplos de uso de parâmetros em Ts
+function incrementar(velocidade, incremento) {
+    if (incremento === void 0) { incremento = 1; }
+    return velocidade + incremento;
+}
+console.log("Incremente(5,1) = " + incrementar(5, 1));
+console.log("Incremente(5) = " + incrementar(5));
 //# sourceMappingURL=funcoes.js.map
