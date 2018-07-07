@@ -7,3 +7,26 @@
  *  2) No terminal executar: Node (nome do arquivo)
  *
  */
+
+let msg: string = "Help me, Obi-Wan! You're the only one can help us!"
+console.log(msg)
+
+let episode: number = 4
+console.log("This is episode " + 4)
+episode = episode + 1
+console.log("Next episode is " + episode);
+
+let favoriteDroid: string
+favoriteDroid = "BB-8"
+console.log("My favorite Droid is " + favoriteDroid);
+
+let isEnoughToBeatMF = function(parsecs: number) : boolean {
+    return parsecs < 12
+}
+
+let distance = 11
+console.log(`Is ${distance} parsecs enough to beat Millenium Falcon? ${isEnoughToBeatMF(distance) ? 'YES' : 'NO'}`)
+
+// Exemplos de Funções com Arrow Functions:
+let call = (name: string) => console.log(`Do you copy, ${name}`)
+call('R2D2')
