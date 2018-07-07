@@ -1,6 +1,7 @@
+"use strict";
 /**
  *
- * Arquivo: classes.ts
+ * Arquivo: starfighters.ts
  * Author: Glaucia Lemos
  * Description: Arquivo para revisar alguns itens sobre Typescript
  *  1) Executar o comando: Shift + Ctrl + B (Windows)
@@ -17,18 +18,8 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var Spacecraft = /** @class */ (function () {
-    function Spacecraft(propulsor) {
-        this.propulsor = propulsor;
-    }
-    Spacecraft.prototype.jumpIntoHyperspace = function () {
-        console.log("Entering hyperspace with " + this.propulsor);
-    };
-    return Spacecraft;
-}());
-var ship = new Spacecraft('hyperdrive');
-ship.jumpIntoHyperspace();
-//==> Uso de heranças em TypeScript:
+Object.defineProperty(exports, "__esModule", { value: true });
+var base_ships_1 = require("./base-ships");
 var MilleniumFalcon = /** @class */ (function (_super) {
     __extends(MilleniumFalcon, _super);
     function MilleniumFalcon() {
@@ -45,9 +36,6 @@ var MilleniumFalcon = /** @class */ (function (_super) {
         }
     };
     return MilleniumFalcon;
-}(Spacecraft));
-var falcon = new MilleniumFalcon();
-falcon.jumpIntoHyperspace();
-var goodForTheJob = function (ship) { return ship.cargoContainers > 2; };
-console.log("Is falcon good for the job?...: " + (goodForTheJob(falcon) ? 'YES' : 'NO'));
-//# sourceMappingURL=classes.js.map
+}(base_ships_1.Spacecraft));
+exports.MilleniumFalcon = MilleniumFalcon;
+//# sourceMappingURL=starfighters.js.map
