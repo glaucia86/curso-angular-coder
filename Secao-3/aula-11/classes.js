@@ -49,5 +49,5 @@ var MilleniumFalcon = /** @class */ (function (_super) {
 var falcon = new MilleniumFalcon();
 falcon.jumpIntoHyperspace();
 var goodForTheJob = function (ship) { return ship.cargoContainers > 2; };
-console.log("Is falcon good for the job " + (goodForTheJob(falcon) ? 'YES' : 'NO'));
+console.log("Is falcon good for the job?...: " + (goodForTheJob(falcon) ? 'YES' : 'NO'));
 //# sourceMappingURL=classes.js.map
